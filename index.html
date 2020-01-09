@@ -15,7 +15,9 @@
   <!--Start Top navbar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
     <a class="navbar-brand" href="#">
-      <img src="img/logo.png" height="35px" width="50px" alt=""><span class="ml-2">Staff Leadership Training Institute</span> </a>
+      <img src="img/logo.png" height="35px" width="50px" alt="">
+      <span class="ml-2">Staff Leadership Training Institute</span>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,21 +26,21 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
       <ul class="navbar-nav mr-auto">
-        
+
       </ul>
 
 
       <ul class="navbar-nav ml-auto">
 
-          <li class="nav-item active  d-flex align-items-center">
-              <a class="nav-link" href="">Features
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item  d-flex align-items-center">
-              <a class="nav-link" href="">Resources</a>
-            </li>
-    
+        <li class="nav-item active  d-flex align-items-center">
+          <a class="nav-link" href="">Features
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item  d-flex align-items-center">
+          <a class="nav-link" href="">Resources</a>
+        </li>
+
 
         <li class="nav-item right-border pr-2 mr-2">
           <a class="nav-link" href="">
@@ -47,13 +49,13 @@
 
         <li class="nav-item d-flex align-items-center">
           <a class="nav-link" href="">
-            <i class="fas fa-envelope-open-text"> </i> 
+            <i class="fas fa-envelope-open-text"> </i>
             <sup class="badge badge-pill badge-primary">7</sup>
             <span class="d-lg-none">Messages</span>
           </a>
         </li>
 
-        <li class="nav-item d-flex align-items-center mr-3">
+        <li class="nav-item d-flex align-items-center mr-2">
           <a class="nav-link" href="">
             <i class="fas fa-bell"></i>
             <sup class="badge badge-pill badge-danger">7</sup>
@@ -63,22 +65,23 @@
 
         <li class="nav-item staff-name  d-flex justify-content-between align-items-center">
           <div>
-         
-          <a class="nav-link" href="#" role="button">  <img src="img/pic.png" class="profile-img mr-2" height="40px" width=" 40px" alt="">Brother Wilfred</a>
 
-        </div>
-        <i class="fas fa-chevron-down"></i>
+            <a class="nav-link" href="#" role="button">
+              <img src="img/pic.png" class="profile-img mr-2" height="40px" width=" 40px" alt="">Brother Wilfred</a>
+
+          </div>
+          <i class="fas fa-chevron-down"></i>
         </li>
 
         <li class="nav-item mr-2 ">
           <a class="nav-link" href="">
-            
+
           </a>
         </li>
       </ul>
     </div>
   </nav>
-  
+
   <!--/.End Top navbar-->
 
   <!--Start Wrapper-->
@@ -87,50 +90,125 @@
       <i class="fas fa-long-arrow-alt-right"></i>
     </div>
     <!--Start Teaching Curriculum-->
-    <div id="teaching-curriculum" class="d-none d-lg-block">
-      <div class="bg-light teaching-curriculum-header d-flex justify-content-between">
+    <div id="teaching-curriculum" class="d-none d-lg-block bg-light">
+      <div class="teaching-curriculum-header d-flex justify-content-between">
         Teaching Curriculum
-        <span id="hide-curriculum" class="text-secondary ">
+        <span id="hide-curriculum" class="text-white ">
           <i class="fas fa-long-arrow-alt-left"></i>
         </span>
       </div>
       <ul class="list-group list-group-flush">
-        <li class="teaching-level-item active list-group-item  d-flex justify-content-between align-items-center">
+        <!--Start Inuagural Lectures-->
+        <li data-toggle="collapse" data-target="#inuagural-lectures" class="teaching-level-item  list-group-item bg-light d-flex justify-content-between align-items-center" >
+          Inuagural Lectures
+          <span class="">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </li>
+        <ul id="inuagural-lectures" class="list-group list-group-flush">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        <!--End Inuagural Lectures-->
+
+        <!--Start Non-Management-->
+        <li data-toggle="collapse" data-target="#non-management" class="teaching-level-item  list-group-item  bg-light d-flex justify-content-between align-items-center">
           Non-Management
           <span class="">
             <i class="fas fa-chevron-down"></i>
           </span>
         </li>
-        <li class="teaching-level-item list-group-item d-flex justify-content-between align-items-center">
+        <ul id="non-management" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+         <!--End Non-Management-->
+
+          <!--Start  Supervisory Staff-->
+        <li data-toggle="collapse" data-target="#supervisory-staff" class="teaching-level-item list-group-item  bg-light d-flex justify-content-between align-items-center">
           Supervisory Staff
           <span class="">
             <i class="fas fa-chevron-down"></i>
           </span>
         </li>
-        <li class="teaching-level-item list-group-item d-flex justify-content-between align-items-center">
+        <ul id="supervisory-staff" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        <!--End  Supervisory Staff-->
+
+        <!--Start  Management-->
+        <li data-toggle="collapse" data-target="#management" class="teaching-level-item list-group-item  bg-light d-flex justify-content-between align-items-center">
           Management
           <span class="">
             <i class="fas fa-chevron-down"></i>
           </span>
         </li>
-        <li class="teaching-level-item list-group-item d-flex justify-content-between align-items-center">
+        <ul id="management" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        <!--End Management-->
+
+        <!--Start Mid-Management-->
+        <li data-toggle="collapse" data-target="#mid-management" class="teaching-level-item list-group-item  bg-light d-flex justify-content-between align-items-center">
           Mid-Management
           <span class="">
             <i class="fas fa-chevron-down"></i>
           </span>
         </li>
-        <li class="teaching-level-item list-group-item d-flex justify-content-between align-items-center">
+        <ul id="mid-management" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        <!--End Mid-Management-->
+
+        <!--Start Senior-Management-->
+        <li data-toggle="collapse" data-target="#senior-management" class="teaching-level-item list-group-item bg-light d-flex justify-content-between align-items-center">
           Senior-Management
           <span class="">
             <i class="fas fa-chevron-down"></i>
           </span>
         </li>
-        <li class="teaching-level-item list-group-item d-flex justify-content-between align-items-center">
+        <ul id="senior-management" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+         <!--End Senior-Management-->
+
+          <!--Start Executive-Management-->
+        <li data-toggle="collapse" data-target="#executive-management" class="teaching-level-item list-group-item bg-light d-flex justify-content-between align-items-center">
           Executive-Management
           <span class="">
             <i class="fas fa-chevron-down"></i>
           </span>
         </li>
+        <ul id="executive-management" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+         <!--End Executive-Management-->
       </ul>
     </div>
     <!--End Teaching Curriculum-->
@@ -200,43 +278,118 @@
         <!--Start Tab content for Curricullum tab-->
         <div class="tab-pane fade m-4" id="curricullum" role="tabpanel" aria-labelledby="curricullum-tab">
           <ul class="list-group list-group-flush">
-            <li class="teaching-level-item active list-group-item  d-flex justify-content-between align-items-center">
-              Non-Management
-              <span class="">
-                <i class="fas fa-chevron-down"></i>
-              </span>
-            </li>
-            <li class="teaching-level-item list-group-item d-flex justify-content-between align-items-center">
-              Supervisory Staff
-              <span class="">
-                <i class="fas fa-chevron-down"></i>
-              </span>
-            </li>
-            <li class="teaching-level-item list-group-item d-flex justify-content-between align-items-center">
-              Management
-              <span class="">
-                <i class="fas fa-chevron-down"></i>
-              </span>
-            </li>
-            <li class="teaching-level-item list-group-item d-flex justify-content-between align-items-center">
-              Mid-Management
-              <span class="">
-                <i class="fas fa-chevron-down"></i>
-              </span>
-            </li>
-            <li class="teaching-level-item list-group-item d-flex justify-content-between align-items-center">
-              Senior-Management
-              <span class="">
-                <i class="fas fa-chevron-down"></i>
-              </span>
-            </li>
-            <li class="teaching-level-item list-group-item d-flex justify-content-between align-items-center">
-              Executive-Management
-              <span class="">
-                <i class="fas fa-chevron-down"></i>
-              </span>
-            </li>
+        <!--Start Inuagural Lectures-->
+        <li data-toggle="collapse" data-target="#inuagural-lectures" class="teaching-level-item  list-group-item bg-light d-flex justify-content-between align-items-center" >
+          Inuagural Lectures
+          <span class="">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </li>
+        <ul id="inuagural-lectures" class="list-group list-group-flush">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
           </ul>
+        <!--End Inuagural Lectures-->
+
+        <!--Start Non-Management-->
+        <li data-toggle="collapse" data-target="#non-management" class="teaching-level-item  list-group-item  bg-light d-flex justify-content-between align-items-center">
+          Non-Management
+          <span class="">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </li>
+        <ul id="non-management" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+         <!--End Non-Management-->
+
+          <!--Start  Supervisory Staff-->
+        <li data-toggle="collapse" data-target="#supervisory-staff" class="teaching-level-item list-group-item  bg-light d-flex justify-content-between align-items-center">
+          Supervisory Staff
+          <span class="">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </li>
+        <ul id="supervisory-staff" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        <!--End  Supervisory Staff-->
+
+        <!--Start  Management-->
+        <li data-toggle="collapse" data-target="#management" class="teaching-level-item list-group-item  bg-light d-flex justify-content-between align-items-center">
+          Management
+          <span class="">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </li>
+        <ul id="management" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        <!--End Management-->
+
+        <!--Start Mid-Management-->
+        <li data-toggle="collapse" data-target="#mid-management" class="teaching-level-item list-group-item  bg-light d-flex justify-content-between align-items-center">
+          Mid-Management
+          <span class="">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </li>
+        <ul id="mid-management" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        <!--End Mid-Management-->
+
+        <!--Start Senior-Management-->
+        <li data-toggle="collapse" data-target="#senior-management" class="teaching-level-item list-group-item bg-light d-flex justify-content-between align-items-center">
+          Senior-Management
+          <span class="">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </li>
+        <ul id="senior-management" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+         <!--End Senior-Management-->
+
+          <!--Start Executive-Management-->
+        <li data-toggle="collapse" data-target="#executive-management" class="teaching-level-item list-group-item bg-light d-flex justify-content-between align-items-center">
+          Executive-Management
+          <span class="">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </li>
+        <ul id="executive-management" class="list-group list-group-flush collapse">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+         <!--End Executive-Management-->
+      </ul>
         </div>
         <!--End Tab content for Curricullum tab-->
       </div>
