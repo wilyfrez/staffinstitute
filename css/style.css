@@ -160,6 +160,11 @@ a {
     }
  }
 
+ .teaching-level-item{
+     font-size: 0.9rem;
+     font-weight: 500;
+ }
+
  @media (max-width: 576px){
     .navbar {
          width: 100%;
