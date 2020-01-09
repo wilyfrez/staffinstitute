@@ -51,6 +51,9 @@ video{
   
 }
 
+sup.badge{
+    font-size: 0.6rem;
+}
 .teaching-curriculum-header{
     padding: 15px 20px;
     font-size: 1.2rem;
@@ -85,7 +88,54 @@ video{
     border-right: 1px solid rgba(0, 0, 0, 0.125);
 }
 
+a {
+    color: #495057 !important;
+}
+
+.nav-tabs .nav-link:hover{
+    border-top: 2px solid #007bff; 
+    color: #007bff !important;
+
+}
+
+.comment-box {
+    border: 1px solid #f7f8fa;
+    background-color: #f7f8fa;
+    border-radius: 15px;
+}
+
+
+.commentor-name {
+    font-weight: 600;
+    color: #024a97;
+}
+
+.sm-comment-name {
+    margin-left: 80px;
+}
+
+.btn-style:hover{
+    background-color: #fff;
+}
+.btn-style:active{
+    border: 0px solid #fff;
+}
+
+.navbar{
+    padding: 0 2rem ;
+}
 /*--Media Queries---*/
+
+@media (max-width: 1130px){
+    .navbar-brand{
+        font-size: 0.9rem;
+    }
+
+    a.nav-link{
+        font-size: 0.85rem;
+    }
+
+}
 
 @media (max-width: 768px){
     video{
@@ -93,7 +143,10 @@ video{
         height: 100%;
     }
 
+    .navbar-brand{
+        font-size: 1.0rem;
     }
+ }
 
  @media (max-width: 576px){
     .navbar {
@@ -106,7 +159,8 @@ video{
     }
     
     .navbar-brand{
-        font-size: 0.85rem;
+        font-size: 0.8rem;
+        font-weight: 500;
     }
 
     .navbar img{
